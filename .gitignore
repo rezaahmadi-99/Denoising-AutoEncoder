@@ -1,0 +1,32 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Jupyter autosave checkpoints
+.ipynb_checkpoints/
+
+# Generated model weights and training logs
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+runs/
+wandb/
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# macOS metadata
+.DS_Store
+._*
